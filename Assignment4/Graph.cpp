@@ -21,7 +21,7 @@ Graph::Graph(Edge* edges_array, int num_nodes, int num_edges) {
     }
     for (int i = 0; i < num_nodes; ++i){
         for (int j = 0; j < num_nodes; ++j){
-            adjMatrix[i][j] = numeric_limits<int>::max(); // Use numeric_limits<int>::max() for INFINITY
+            adjMatrix[i][j] = numeric_limits<int>::max(); 
         }
     }
 
